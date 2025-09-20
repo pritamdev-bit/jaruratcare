@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jarurat Care 🏥
 
-## Getting Started
+Jarurat Care is a modern medical institute web application built using **Next.js 15**, **React 19**, and **Tailwind CSS 4**.  
+The platform provides a clean, responsive, and user-friendly interface for patients and visitors to explore services, contact the institute, and access essential information.
 
-First, run the development server:
+---
 
+## 🚀 Features
+- **Next.js 15 + Turbopack** for blazing-fast builds and development.
+- **React 19** with latest hooks and features.
+- **Tailwind CSS 4** for responsive, utility-first styling.
+- Interactive **UI components** using Lucide Icons, Radix UI, and motion animations.
+- Toast notifications with **react-hot-toast**.
+
+---
+
+## 📸 Screenshots
+
+| Home Page | About Page |
+|-----------|------------|
+| ![Home](public/screenshots/home.png) | ![About](public/screenshots/about.png) |
+
+| Contact Page | Patients Page |
+|--------------|---------------|
+| ![Contact](public/screenshots/contact.png) | ![Patients](public/screenshots/patients.png) |
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js 15, React 19
+- **Styling:** Tailwind CSS 4, tw-animate-css
+- **UI/UX:** Radix UI, Lucide React, Tabler Icons
+- **State & Table:** TanStack Table
+- **Other:** React Hot Toast, clsx, tailwind-merge
+
+---
+
+
+---
+
+## ⚡ Getting Started
 ```bash
+1️⃣ Clone the repository
+git clone https://github.com/your-username/jarurat-care.git
+cd jaruratcare
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app will be available at http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🏗️ Build for Production
+npm run build
+npm start
