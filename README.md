@@ -18,11 +18,11 @@ The platform provides a clean, responsive, and user-friendly interface for patie
 
 | Home Page | About Page |
 |-----------|------------|
-| ![Home](public/screenshots/home.png) | ![About](public/screenshots/about.png) |
+| ![Home](https://jaruratcare.vercel.app/home.png) | ![About](https://jaruratcare.vercel.app/about.png) |
 
-| Contact Page | Patients Page |
+| Patient Page | Patient Details Page |
 |--------------|---------------|
-| ![Contact](public/screenshots/contact.png) | ![Patients](public/screenshots/patients.png) |
+| ![Patient](https://jaruratcare.vercel.app/patientinfo.png) | ![Patients](https://jaruratcare.vercel.app/patients.png) |
 
 ---
 
